@@ -17,20 +17,21 @@ body {
     font-family: Arial;
     margin: 0;
     min-width: 700px;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 .header {
     background-color: black;
     min-width: 100%;
     min-height: 90px;
     z-index: 5000;
-    display: grid;
-    grid-template-columns: 2fr 0.5fr 4fr;    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .headerTop {
     height: 138px;
+    
 }
 
 .box1 {
@@ -80,7 +81,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    
 }
 
 .navlink {
@@ -105,16 +106,19 @@ body {
 }
 
 .card {    
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(29, 29, 29);
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4%;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .card > .text {
-    text-align: center;
+    text-align: justify;
+    line-height: 166.4%;
     margin: auto;
     padding: 10%;
-    text-align: center;
     font-size: 1.6em;
 }
 
