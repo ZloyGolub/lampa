@@ -8,15 +8,18 @@ html {
     font-size: 10px;
     margin: 0;
     width: 100%;
-    min-width: 700px;   
     background-color: black;
     color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
 
 body {
     font-family: Arial;
     margin: 0;
-    min-width: 700px;
+    max-width: 1200px;
 }
 .header {
     background-color: black;
@@ -59,16 +62,6 @@ body {
         font-size: 1.6em;
     }
 }
-/* .LogoRectangle {
-    height: 50px;
-    width: 50px;
-    background: linear-gradient(147deg, #447ec1 10%, #143C6B 72%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    margin-right: 10px;
-} */
 
 .box3 {
     display: flex;
@@ -97,7 +90,6 @@ body {
     color: white;
 }
 
-
 .line {
     height: 44px;
     width: 2px;
@@ -105,17 +97,29 @@ body {
     margin-top: 3px;
 }
 
+.favor {
+    text-align: center;
+    font-size: 2.4em;
+}
+
+/* Cards */
 .card {    
     background-color: rgb(29, 29, 29);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-top: 3%;
     margin-left: 80px;
     margin-right: 80px;
 }
 
+.card_grid {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 2fr 1fr;
+}
+
 .card > .text {
-    text-align: justify;
+    text-align: center;
     line-height: 166.4%;
     margin: auto;
     padding: 10%;
@@ -123,9 +127,9 @@ body {
 }
 
 .card img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
+    vertical-align: middle;
+    width: 500px;
 }
 
 .card h1 {
@@ -134,4 +138,13 @@ body {
     font-weight: normal;
     font-size: 4em;
     color: peru;
+}
+
+.backgroundContacts {
+    background: url(../images/HiP-Paris-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
