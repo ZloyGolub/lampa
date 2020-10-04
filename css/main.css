@@ -20,6 +20,8 @@ body {
     font-family: Arial;
     margin: 0;
     max-width: 1200px;
+    /* display: flex;
+    flex-direction: column; */
 }
 .header {
     background-color: black;
@@ -31,6 +33,7 @@ body {
     padding-left: 80px;
     padding-right: 80px;
 }
+
 
 .headerTop {
     height: 138px;
@@ -126,7 +129,11 @@ body {
     font-size: 1.6em;
 }
 
-.card img {
+.card a {
+    text-decoration: none;
+}
+
+.card .right_img {
     object-fit: cover;
     vertical-align: middle;
     width: 500px;
