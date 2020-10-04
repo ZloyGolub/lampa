@@ -148,3 +148,22 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.about_background {
+    background: url("../images/about_b.webp");
+    background-size: cover;
+    background-position: center;
+    height: 33em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small_card {
+    width: 70%;
+    min-height: 50%;    
+    line-height: 166.4%;    
+    text-align: center;
+    padding: 5%;
+    font-size: 1.3em;
+}
