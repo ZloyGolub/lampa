@@ -25,6 +25,7 @@ body {
     /* display: flex;
     flex-direction: column; */
 }
+
 .header {
     background-color: black;
     min-width: 100%;
@@ -35,7 +36,6 @@ body {
     padding-left: 80px;
     padding-right: 80px;
 }
-
 
 .headerTop {
     height: 138px;
@@ -154,7 +154,6 @@ body {
 #card_up {
     grid-area: up;
 }
-
 
 .card > .text {
     text-align: center;
