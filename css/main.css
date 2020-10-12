@@ -107,7 +107,7 @@ body {
 
 .favor {
     text-align: center;
-    /* font-size: 2.4em; */
+    font-size: 3.4em;
 }
 
 /* Cards */
@@ -249,4 +249,14 @@ body {
 
 .grid_link:hover {
     color: white;
+}
+
+/*template styles*/
+
+.card > .template_text{
+    text-align: left;
+    line-height: 166.4%;
+    margin: auto;
+    padding: 10%;
+    font-size: 1.6em;
 }
