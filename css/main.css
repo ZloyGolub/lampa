@@ -18,10 +18,9 @@ html {
 }
 
 body {
-    font-family: Arial;
     margin: 0;
     max-width: 1200px;
-    font-family: 'Montserrat ', Times, serif;
+    font-family: 'Montserrat', Times, serif;
     /* display: flex;
     flex-direction: column; */
 }
@@ -108,7 +107,7 @@ body {
 
 .favor {
     text-align: center;
-    font-size: 2.4em;
+    font-size: 3.4em;
 }
 
 /* Cards */
@@ -174,7 +173,7 @@ body {
 }
 
 .card h1 {
-    font-family: 'Montserrat', Times, serif;
+    font-family: 'Times new roman', Times, serif;
     font-style: italic;
     font-weight: normal;
     font-size: 4em;
@@ -203,7 +202,7 @@ body {
     justify-content: center;
 }
 
-.small_card {
+.alter_card {
     width: 70%;
     min-height: 50%;    
     line-height: 166.4%;    
@@ -212,4 +211,52 @@ body {
     font-size: 1.6em;
 }
 
-/* Cards */
+/* Card small */
+
+.cards_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 40px;
+    /* background-color: gray; */
+    padding: 20px;
+
+}
+
+.cards_grid > div {
+    background-color: rgb(29, 29, 29);
+}
+
+.cards_grid img {
+    object-fit: cover;
+    vertical-align: middle;
+    width: 100%;
+    max-height: 260px;
+}
+
+.cards_grid .text {
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 166.4%;
+    margin: 20px;
+    /* padding: 10px; */
+}
+
+.grid_link {
+    transition: color 0.2s linear;
+    color: peru;
+}
+
+.grid_link:hover {
+    color: white;
+}
+
+/*template styles*/
+
+.card > .template_text{
+    text-align: left;
+    line-height: 166.4%;
+    margin: auto;
+    padding: 10%;
+    font-size: 1.6em;
+}
