@@ -242,9 +242,16 @@ body {
     /* padding: 10px; */
 }
 
+.cards_grid .iner_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .grid_link {
     transition: color 0.2s linear;
     color: peru;
+    text-decoration: none;
 }
 
 .grid_link:hover {
@@ -259,4 +266,26 @@ body {
     margin: auto;
     padding: 10%;
     font-size: 1.6em;
+}
+
+.forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms_button {
+    background: transparent;
+    color: peru;
+    font-size: 2.4em;
+    width: 200px;
+    height: 60px;
+    border-radius: 6px;
+}
+
+.forms_button:hover {
+    background-color: peru;
+    color: white;
+    transition: color 0.2s linear;
+    cursor: pointer;
 }
