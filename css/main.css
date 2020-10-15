@@ -287,6 +287,27 @@ body {
     transition: color 0.2s linear;
     cursor: pointer;
 }
+@media screen and (max-width: 544px) {
+    .LogoText {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 3.5em;
+        color: white;
+    }
+    .header {
+        background-color: black;
+        min-width: 100%;
+        min-height: 90px;
+        z-index: 5000;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .alter_card {
@@ -317,6 +338,12 @@ body {
     .about_background {    
         margin-left: 0;
         margin-right: 0;
+    }
+    
+    .card > .text {
+        line-height: 166.4%;
+        padding: 1%;
+        font-size: 1.6em;
     }
 }
 
