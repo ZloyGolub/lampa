@@ -218,7 +218,6 @@ body {
     row-gap: 40px;
     /* background-color: gray; */
     padding: 20px;
-
 }
 
 .cards_grid > div {
@@ -287,25 +286,12 @@ body {
     transition: color 0.2s linear;
     cursor: pointer;
 }
-@media screen and (max-width: 544px) {
-    .LogoText {
-        font-family: 'Times New Roman', Times, serif;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 3.5em;
-        color: white;
-    }
-    .header {
-        background-color: black;
-        min-width: 100%;
-        min-height: 90px;
-        z-index: 5000;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 0px;
-        padding-right: 0px;
+
+@media screen and (max-width: 992px) {
+    .card .right_img {
+        object-fit: cover;
+        vertical-align: middle;
+        width: 265px;
     }
 }
 
@@ -327,7 +313,7 @@ body {
     }
 
     .navlink {
-        margin: 0px;
+        margin: 5px;
     }
 
     .card {    
@@ -345,12 +331,51 @@ body {
         padding: 1%;
         font-size: 1.6em;
     }
+
+    .cards_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 20px;
+        /* background-color: gray; */
+        padding: 10px;
+    }
 }
 
-@media screen and (max-width: 992px) {
-    .card .right_img {
-        object-fit: cover;
-        vertical-align: middle;
-        width: 265px;
+@media screen and (max-width: 544px) {
+    .LogoText {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 3.5em;
+        color: white;
+    }
+    .header {
+        background-color: black;
+        min-width: 100%;
+        min-height: 90px;
+        z-index: 5000;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .cards_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        /* background-color: gray; */
+        padding: 5px;
+    }
+
+    
+    .navlink {
+        font-size: 1.3em;
+        margin: 2px;
+        text-align: center;
     }
 }
