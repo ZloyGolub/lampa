@@ -112,8 +112,8 @@ body {
 /* Cards */
 .card {    
     background-color: rgb(29, 29, 29);
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -169,7 +169,7 @@ body {
     object-fit: cover;
     vertical-align: middle;
     width: 100%;
-    min-height: 500px;
+    height: 500px;
 }
 
 .card h1 {
@@ -229,11 +229,12 @@ body {
     object-fit: cover;
     vertical-align: middle;
     width: 100%;
-    max-height: 260px;
+    height: 260px;
+    
 }
 
 .cards_grid .text {
-    font-size: 1.3em;
+    font-size: 1.6em;
     text-align: center;
     line-height: 166.4%;
     margin: 20px;
@@ -328,9 +329,9 @@ body {
     }
     
     .card > .text {
-        line-height: 166.4%;
+        line-height: 130%;
         padding: 1%;
-        font-size: 1.6em;
+        font-size: 1.3em;
     }
 
     .cards_grid {
@@ -355,7 +356,7 @@ body {
         font-family: 'Times New Roman', Times, serif;
         font-style: italic;
         font-weight: normal;
-        font-size: 3.5em;
+        font-size: 3em;
         color: white;
     }
     .header {
@@ -374,8 +375,8 @@ body {
     .cards_grid {
         display: grid;
         grid-template-columns: 1fr;
-        column-gap: 10px;
-        row-gap: 10px;
+        column-gap: 20px;
+        row-gap: 20px;
         /* background-color: gray; */
         padding: 5px;
     }
