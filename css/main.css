@@ -37,8 +37,7 @@ body {
 }
 
 .headerTop {
-    height: 138px;
-    
+    height: 138px;    
 }
 
 .box1 {
@@ -189,8 +188,7 @@ body {
     background-position: center;
 }
 
-.about_background {
-    
+.about_background {    
     margin-left: 80px;
     margin-right: 80px;
     background: url("../images/about_us.webp");
@@ -288,4 +286,44 @@ body {
     color: white;
     transition: color 0.2s linear;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .alter_card {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .card_grid {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+    .header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navlink {
+        margin: 0px;
+    }
+
+    .card {    
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .about_background {    
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card .right_img {
+        object-fit: cover;
+        vertical-align: middle;
+        width: 265px;
+    }
 }
