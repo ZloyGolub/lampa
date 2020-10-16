@@ -110,6 +110,11 @@ body {
     padding-top: 40px;
 }
 
+.logo_img {
+    max-width: 100%;
+    max-width: 300px;
+}
+
 /* Cards */
 .card {    
     background-color: rgb(29, 29, 29);
