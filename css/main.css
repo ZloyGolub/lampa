@@ -367,11 +367,8 @@ body {
 
 @media screen and (max-width: 544px) {
     .LogoText {
-        font-family: 'Times New Roman', Times, serif;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 3em;
-        color: white;
+        font-size: 0;
+        height: 0;
     }
     .header {
         background-color: black;
