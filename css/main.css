@@ -349,6 +349,14 @@ body {
         max-height: 250px;
         min-height: fit-content;
     }
+
+    .card > .text {
+        text-align: center;
+        line-height: 166.4%;
+        margin: auto;
+        padding: 10%;
+        font-size: 1.6em;
+    }
 }
 
 @media screen and (max-width: 544px) {
