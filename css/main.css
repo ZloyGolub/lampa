@@ -227,7 +227,7 @@ body {
   
   .contacts li {
     margin-bottom: 0.25rem;
-    margin-right: 1.3em;
+    /* margin-right: 1.3em; */
   }
   
   .contacts li:before {
