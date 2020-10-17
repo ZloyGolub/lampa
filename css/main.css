@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -10,7 +9,7 @@ html {
     margin: 0;
     width: 100%;
     background-color: black;
-    color: white; 
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +36,7 @@ body {
 }
 
 .headerTop {
-    height: 138px;    
+    height: 138px;
 }
 
 .box1 {
@@ -53,15 +52,15 @@ body {
     font-size: 3.5em;
     color: white;
 }
-@media screen and (max-width: 1200px) {
 
-    .LogoText{
+@media screen and (max-width: 1200px) {
+    .LogoText {
         font-size: 2.2em;
     }
-  }
-@media screen and (max-width: 800px) {
+}
 
-    .LogoText{
+@media screen and (max-width: 800px) {
+    .LogoText {
         font-size: 1.6em;
     }
 }
@@ -70,14 +69,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
 }
 
 .navigation {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .navlink {
@@ -94,7 +91,7 @@ body {
 }
 
 .link_active {
-    color:white;
+    color: white;
 }
 
 .line {
@@ -116,7 +113,8 @@ body {
 }
 
 /* Cards */
-.card {    
+
+.card {
     background-color: rgb(29, 29, 29);
     margin-bottom: 20px;
     margin-top: 20px;
@@ -143,15 +141,12 @@ body {
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-areas: 
-    "up up"
-    "lu ru"
-    "ld rd";
+    grid-template-areas: "up up" "lu ru" "ld rd";
     grid-template-columns: 1fr 1fr;
     min-height: 70em;
 }
 
-.alleft{
+.alleft {
     text-align: left;
 }
 
@@ -159,7 +154,7 @@ body {
     grid-area: up;
 }
 
-.card > .text {
+.card>.text {
     text-align: center;
     line-height: 166.4%;
     margin: auto;
@@ -195,7 +190,7 @@ body {
     background-position: center;
 }
 
-.about_background {    
+.about_background {
     margin-left: 80px;
     margin-right: 80px;
     background: url("../images/about_us.webp");
@@ -209,8 +204,8 @@ body {
 
 .alter_card {
     width: 70%;
-    min-height: 50%;    
-    line-height: 130%;    
+    min-height: 50%;
+    line-height: 130%;
     text-align: center;
     padding: 5%;
     font-size: 1.6em;
@@ -227,7 +222,7 @@ body {
     padding: 20px;
 }
 
-.cards_grid > div {
+.cards_grid>div {
     background-color: rgb(29, 29, 29);
 }
 
@@ -236,7 +231,6 @@ body {
     vertical-align: middle;
     width: 100%;
     height: 260px;
-    
 }
 
 .cards_grid .text {
@@ -265,7 +259,7 @@ body {
 
 /*template styles*/
 
-.card > .template_text{
+.card>.template_text {
     text-align: left;
     line-height: 166.4%;
     margin: auto;
@@ -295,6 +289,12 @@ body {
     cursor: pointer;
 }
 
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
 @media screen and (max-width: 992px) {
     .card .right_img {
         object-fit: cover;
@@ -319,27 +319,22 @@ body {
         padding-left: 0;
         padding-right: 0;
     }
-
     .navlink {
         margin: 5px;
     }
-
-    .card {    
+    .card {
         margin-left: 0;
         margin-right: 0;
     }
-    
-    .about_background {    
+    .about_background {
         margin-left: 0;
         margin-right: 0;
     }
-    
-    .card > .text {
+    .card>.text {
         line-height: 130%;
         padding: 1%;
         font-size: 1.3em;
     }
-
     .cards_grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -355,8 +350,7 @@ body {
         max-height: 250px;
         min-height: fit-content;
     }
-
-    .card > .text {
+    .card>.text {
         text-align: center;
         line-height: 166.4%;
         margin: auto;
@@ -382,7 +376,6 @@ body {
         padding-left: 0px;
         padding-right: 0px;
     }
-    
     .cards_grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -391,13 +384,11 @@ body {
         /* background-color: gray; */
         padding: 5px;
     }
-    
     .navlink {
         font-size: 1.3em;
         margin: 2px;
         text-align: center;
     }
-
     .card .right_img {
         object-fit: cover;
         vertical-align: middle;
@@ -405,32 +396,27 @@ body {
         max-height: 250px;
         min-height: fit-content;
     }
-
     .alter_card {
         line-height: 120%;
     }
-    
     .faq_grid {
         display: flex;
         align-items: center;
         justify-items: center;
         flex-direction: column;
     }
-
-    .card > .text {
+    .card>.text {
         text-align: center;
         line-height: 166.4%;
         margin: auto;
         padding: 10%;
         font-size: 1.6em;
     }
-
-    .about_background {    
+    .about_background {
         margin-left: 0;
         margin-right: 0;
         height: auto;
     }
-
     .alter_card {
         margin-bottom: 0;
         margin-top: 0;
