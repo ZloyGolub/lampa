@@ -210,6 +210,91 @@ body {
     padding: 5%;
     font-size: 1.6em;
 }
+/* Contacts */
+
+.contacts {
+    list-style: none outside none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* white-space: nowrap; */
+    font-size: 2em;
+    font-weight: 400;
+  }
+  
+  .contacts li {
+    margin-bottom: 0.25rem;
+    margin-right: 1.3em;
+  }
+  
+  .contacts li:before {
+    display: none;
+  }
+  
+  .contacts li a {
+    color: white;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .contacts li a.facebook:hover {
+    color: #3b5998;
+  }
+  
+  .contacts li a.github:hover {
+    color: dimgrey;
+  }
+  
+  .contacts li a.mail:hover {
+    color: dimgrey;
+  }
+  
+  .contacts li a.skype:hover {
+    color: #00aff0;
+  }
+  
+  .contacts li a.linkedin:hover {
+    color: #0077b5;
+  }
+  
+  .contacts li a.telegram:hover {
+    color: #08c;
+  }
+  
+  .contacts li a.phone:hover {
+    color: dimgrey;
+  }
+  
+  .contacts li a.website {
+    display: none;
+  }
+  
+  .contacts li a .icon {
+    fill: currentColor;
+    height: 1.3em;
+    vertical-align: text-bottom;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .name,
+    .job,
+    .contacts {
+      text-align: center;
+    }
+  
+    .contacts li {
+      margin-right: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 1199px) {
+    .contacts {
+      margin-top: 1em;
+      flex-direction: column;
+    }
+  }
 
 /* Card small */
 
