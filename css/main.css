@@ -154,7 +154,7 @@ body {
     grid-area: up;
 }
 
-.card>.text {
+.card .text {
     text-align: center;
     line-height: 166.4%;
     margin: auto;
@@ -217,7 +217,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0;
+    justify-content: center;
+    padding: 10px;
     margin-top: 0;
     margin-bottom: 0;
     /* white-space: nowrap; */
@@ -227,7 +228,7 @@ body {
   
   .contacts li {
     margin-bottom: 0.25rem;
-    /* margin-right: 1.3em; */
+    margin-right: 1.1em;
   }
   
   .contacts li:before {
@@ -241,6 +242,10 @@ body {
   
   .contacts li a.facebook:hover {
     color: #3b5998;
+  }
+
+  .contacts li a.instagram:hover {
+    color: #95ff00;
   }
   
   .contacts li a.github:hover {
