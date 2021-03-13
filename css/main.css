@@ -112,6 +112,14 @@ body {
     max-width: 300px;
 }
 
+@media screen and (max-width: 800px) {
+    .logo_img {
+        max-width: 100%;
+        max-width: 300px;
+        margin-bottom: 40px;
+    }
+}
+
 /* Cards */
 
 .card {
