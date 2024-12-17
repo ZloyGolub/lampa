@@ -8,7 +8,7 @@ html {
     font-size: 10px;
     margin: 0;
     width: 100%;
-    background-color: black;
+    background: linear-gradient(to bottom, #808080, #000000);
     color: white;
     display: flex;
     flex-direction: column;
@@ -377,16 +377,18 @@ body {
 }
 
 .forms_button {
-    background: transparent;
-    color: peru;
+    background: linear-gradient(to bottom, orange, rgb(255, 187, 118)); /* Градиент от оранжевого к серому */
+    color: rgb(0, 0, 0);
     font-size: 2.4em;
     width: 200px;
     height: 60px;
     border-radius: 6px;
+    border: none; /* Убирает границу кнопки */
+    cursor: pointer; /* Делает курсор указателем при наведении */
 }
 
 .forms_button:hover {
-    background-color: peru;
+    background: linear-gradient(to bottom, peru, orange);
     color: white;
     transition: color 0.2s linear;
     cursor: pointer;
